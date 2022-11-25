@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/15d46053c4.js" crossorigin="anonymous"></script>
+  <title>Majek's Portfolio | Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section class="page-1">
+      <header class="hero">
+        <nav class="logo">
+          <a href="#" class="logo">My Logo</a>
+          <i class="fa-solid fa-bars"></i>
+        </nav>
+        <nav class="menu-container">
+          <ul class="menuList">
+            <li><a href="#work-section">Portfolio</a></li>
+            <li><a href="#about-myself">About</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
+          <i class="fa-solid fa-xmark close-btn"></i>
+        </nav>
+        <nav id="menu">
+          <ul>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+      </header>
+    
+      <!---about me-->
+      <section class="intro">
+        <h1>I'm Majek
+          <br> Glad to see you!</h1>
+        <p>I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+        <a class="links">LET'S CONNECT</a>
+    
+          <!--Social media accounts-->
+        <div>
+          <ul class="social-icons">
+            <li><a href="#"><img src="images/Twitter.jpg" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/Linkedin icon.jpg" alt="Linkedin"></a></li>
+            <li><a href="#"><img src="images/M.jpg" alt="iconM"></a></li>
+            <li><a href="#"><img src="images/Githhub.jpg" alt="Github"></a></li>
+            <li><a href="#"><img src="images/fingers.jpg" alt="twoFingers"></a></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    
+    <!--Works section STARTS-->
+    <section class="works-section">
+    </section>
+     <!--Works section ENDS-->
+  
+    <section class="about-myself" id="about-myself">
+      <div class="about-myself-2"><h2>About <br> Myself</h2>
+        <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+        <a class="links">LET'S CONNECT</a>
+      <div>
+        <ul class="social-icons">
+          <li><a href="#"><img src="images/Githhub.jpg" alt="Github"></a></li>
+          <li><a href="#"><img src="images/Linkedin icon.jpg" alt="Linkedin"></a></li>
+          <li><a href="#"><img src="images/Twitter.jpg" alt="Twitter"></a></li>
+          <li><a href="#"><img src="images/fingers.jpg" alt="twoFingers"></a></li>
+          <li><a href="#"><img src="images/M.jpg" alt="iconM"></a></li>
+        </ul>
+        <nav>
+          <button type="button" class="button-2">Get my resume</button>
+        </nav>
+      </div>
+      </div>  
+      
+      <section class="others">
+          <article class="my-works" id="my-works-2">
+            <h3>Languages</h3><i class="fa-solid fa-angle-down"></i>
+          </article>
+            <ul class="lang">
+              <li><img src="images/javascript logo.jpg" alt="javascript"><p>Javascript</p></li>
+              <li><img src="images/HTML logo.jpg" alt="HTML"><p>HTML</p></li>
+              <li><img src="images/css logo.jpg" alt="css"><p>CSS</p></li>
+            </ul>
+          <article class="my-works">
+            <h3>Frameworks</h3><i class="fa-solid fa-angle-right"></i>
+          </article>
+          <article class="my-works">
+            <h3>Skills</h3><i class="fa-solid fa-angle-right"></i>
+          </article>
+      </section>
+    </section>
+  </main>
+
+  <section class="formsection" id="contact-me">
+    <div class="heading-2">
+      <h2>Contact me</h2>
+    </div>
+    <p class="contact-form-description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>  
+    <form id=form action="https://formspree.io/f/mjvzjjpb" method="post">
+      <div class="contact-box">
+        <div class="fullname">
+          <label for="name"></label>
+          <input type="text" id="name" name="user_name" maxlength="30" placeholder="enter full name" required>
+        </div>        
+        <div class="email">
+          <input type="email" id="mail" name="user_email" placeholder="enter email" required>
+        </div>
+        <div class="message">
+          <label for="msg"></label>
+          <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here" required></textarea>
+        </div>
+        <p class="error-message">*invalid email</p>
+        <button class="btn">Get in touch</button>
+      </div>
+    </form>
+  </section>
+  <!-- open modal -->
+
+<section class="modal-out">
+  <div class="modal-container" id="modal-container">
+    <header>
+      <button class="close-modal">&times;</button>
+    <h2 class="title"></h2>
+    </header>
+    <section>
+      <ul class="column">
+        <li><img src="images/point.jpg" alt="highlight"></li>
+        <li></li>
+        <li></li><img src="images/point.jpg" alt="highlight"></li>
+        <li></li>
+      </ul>
+    </section>
+    <img class="snapshoot" src="" alt="first card picture">
+    <article class="modal-paragraph">
+      <div class="side">
+        <p class="paragraph"></p>
+      </div>
+      <div class="side-description">
+        <ul class="works">
+          <li>html</li>
+          <li>css</li>
+          <li>javascript</li>
+        </ul>
+        <section class="button">
+          <button type="button" class="modal-btn">See live<img src="images/see live popup.svg" alt="export icon"></button>
+          <button type="button" class="modal-btn">See Source<img src="images/git popup.svg" alt="github icon"></button>
+        </section>
+      </div>
+    </article>
+  </div>
+</section>
+<!--end of modal-->
+  <script src="./main.js"></script>
+</body>
+</html>
